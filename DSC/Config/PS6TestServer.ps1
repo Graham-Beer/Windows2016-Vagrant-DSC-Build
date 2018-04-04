@@ -2,7 +2,8 @@ Configuration PS6TestServer {
     param (
         [ValidateNotNullOrEmpty()]
         [string]$Node,    
-
+        
+        [ValidateNotNullOrEmpty()]
         [string]$MOFfolder
     )
 
